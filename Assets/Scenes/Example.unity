@@ -358,6 +358,133 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca014879105e38940824f2aeca60623c, type: 3}
+--- !u!1001 &1687803410
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 148702677186732412, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_TreeDistance
+      value: 4662
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702677186732412, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_MaterialTemplate
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702677186732412, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_SplatMapDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702677186732412, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_DrawTreesAndFoliage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702677186732412, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_DetailObjectDistance
+      value: 190
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702677186732412, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_BakeLightProbesForTrees
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702677186732412, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_PreserveTreePrototypeLayers
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702678688257053, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702678688257053, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702678688257053, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702678688257053, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702678688257053, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702678688257053, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702678688257053, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702678688257053, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702678688257053, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702678688257053, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702678688257053, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148702678688257054, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+      propertyPath: m_Name
+      value: Gaia Terrains
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+--- !u!1 &1687803411 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 148702677186732384, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+  m_PrefabInstance: {fileID: 1687803410}
+  m_PrefabAsset: {fileID: 0}
+--- !u!218 &1687803412 stripped
+Terrain:
+  m_CorrespondingSourceObject: {fileID: 148702677186732412, guid: 0e208637c6c634c40ab3b5f7872b2862, type: 3}
+  m_PrefabInstance: {fileID: 1687803410}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1687803413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687803411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6525fd4a9fb974b7f878dee70144de99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  templateMaterial: {fileID: 2100000, guid: 732b515b969517f4d8f2ecdd2863d0c0, type: 2}
+  blendMat: {fileID: 0}
+  blendMatInstance: {fileID: 0}
+  keywordSO: {fileID: 11400000, guid: 9946fda08e8044346ab5d44b29a860f9, type: 2}
+  perPixelNormal: {fileID: 0}
+  streamTexture: {fileID: 0}
+  propData: {fileID: 11400000, guid: 2a8c5347c22c523459fd93e17acd456f, type: 2}
+  terrain: {fileID: 1687803412}
+  baseMapShader: {fileID: 4800000, guid: 3df6b19f654dfc4459cb443a70d6c843, type: 3}
+  customControl0: {fileID: 0}
+  customControl1: {fileID: 0}
+  customControl2: {fileID: 0}
+  customControl3: {fileID: 0}
+  customControl4: {fileID: 0}
+  customControl5: {fileID: 0}
+  customControl6: {fileID: 0}
+  customControl7: {fileID: 0}
+  patchBoundsMultiplier: {x: 1, y: 1, z: 1}
+  reenabled: 1
+  importSplatMaps: []
 --- !u!1 &2043710175
 GameObject:
   m_ObjectHideFlags: 0

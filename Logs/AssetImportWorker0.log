@@ -11,13 +11,13 @@ D:\Unity\2021.3.3f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Game Jam Project
+D:/Game Jam Project 2022/gamejam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54275
-Successfully changed project path to: D:/Game Jam Project
-D:/Game Jam Project
+56618
+Successfully changed project path to: D:/Game Jam Project 2022/gamejam
+D:/Game Jam Project 2022/gamejam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ D:/Game Jam Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 150.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 191.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Game Jam Project/Assets
+[Subsystems] Discovering subsystems at path D:/Game Jam Project 2022/gamejam/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -59,91 +59,99 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     12142 MB
     Driver:   30.0.15.1259
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Terrain_0_0-20220522 - 155605': fallback shader 'Hidden/Terrain_0_0-20220522 - 155605_Base-398067314' not found
+Shader 'Terrain_0_0-20220522 - 155605': dependency 'BaseMapShader' shader 'Hidden/Terrain_0_0-20220522 - 155605_Base-398067314' not found
 Initialize mono
 Mono path[0] = 'D:/Unity/2021.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004554 seconds.
+Registered in 0.004027 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 146.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 194.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.043 seconds
+- Completed reload, in  1.144 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1044ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (1145ms)
+		BeginReloadAssembly (148ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (748ms)
-			LoadAssemblies (136ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (147ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
+			SetupTypeCache (170ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (450ms)
+			SetupLoadedEditorAssemblies (533ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (146ms)
+				RefreshPlugins (194ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009929 seconds.
+Registered in 0.010035 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game Jam Project 2022\gamejam\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game Jam Project 2022\gamejam\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 143.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 218.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.926 seconds
+- Completed reload, in  2.472 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1928ms)
-		BeginReloadAssembly (212ms)
+	ReloadAssembly (2473ms)
+		BeginReloadAssembly (248ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1524ms)
-			LoadAssemblies (169ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (2043ms)
+			LoadAssemblies (196ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (418ms)
+			SetupTypeCache (523ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (830ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (1168ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (144ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (500ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (219ms)
+				BeforeProcessingInitializeOnLoad (205ms)
+				ProcessInitializeOnLoadAttributes (611ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Shader 'Terrain_0_0-20220522 - 155605': fallback shader 'Hidden/Terrain_0_0-20220522 - 155605_Base-398067314' not found
+Shader 'Terrain_0_0-20220522 - 155605': dependency 'BaseMapShader' shader 'Hidden/Terrain_0_0-20220522 - 155605_Base-398067314' not found
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (113.3 KB). Loaded Objects now: 4180.
-Memory consumption went from 133.3 MB to 133.2 MB.
-Total: 7.580900 ms (FindLiveObjects: 0.529300 ms CreateObjectMapping: 0.359400 ms MarkObjects: 6.471100 ms  DeleteObjects: 0.219100 ms)
+Unloading 4742 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (3.5 MB). Loaded Objects now: 5222.
+Memory consumption went from 230.9 MB to 227.4 MB.
+Total: 13.890000 ms (FindLiveObjects: 0.792700 ms CreateObjectMapping: 0.670300 ms MarkObjects: 11.288100 ms  DeleteObjects: 1.137000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -157,64 +165,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4038.838183 seconds.
-  path: Assets/Art/Ground.mat
-  artifactKey: Guid(4495696022285834ea2521a7f98347af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Ground.mat using Guid(4495696022285834ea2521a7f98347af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ef8d9e92b19445b07d04a6a9cafac0') in 0.233739 seconds 
+  Time since last request: 23360.111507 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower10.tga
+  artifactKey: Guid(dcefc591c195a9f468e9157baa03eb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower10.tga using Guid(dcefc591c195a9f468e9157baa03eb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41f54f817ab3b735d33552acac5bfc5') in 0.187853 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Art
-  artifactKey: Guid(23de2b0fbec72444cbbb02df4ea49a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art using Guid(23de2b0fbec72444cbbb02df4ea49a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e12f1fa1f46ef894146e0637c9aac0') in 0.010371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Art/Cone Material.mat
-  artifactKey: Guid(3d6db4d66f02196468918a0d8d2d1bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Cone Material.mat using Guid(3d6db4d66f02196468918a0d8d2d1bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c5f0d1ae93c3fc95962b8da3a1439b') in 0.045815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Art/SM_Prop_Cone_01.prefab
-  artifactKey: Guid(517a8607e4b54054b9216e69695d6e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/SM_Prop_Cone_01.prefab using Guid(517a8607e4b54054b9216e69695d6e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62a0aa3dd781d01c0c16803fe7aefb4') in 0.058788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.344237 seconds.
-  path: Assets/Tilemap/Platformer Palette.prefab
-  artifactKey: Guid(532f3b23b7e91a84c8bda3c93fca5f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/Platformer Palette.prefab using Guid(532f3b23b7e91a84c8bda3c93fca5f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1550cfd966c87d3e147b4414d0de1c') in 0.073135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.799420 seconds.
-  path: Assets/Prefabs/Coin.prefab
-  artifactKey: Guid(455a2cadf2b7f944c95878cabbe80fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Coin.prefab using Guid(455a2cadf2b7f944c95878cabbe80fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda252a0d3f6fcd04b589880715db9b6') in 0.024298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Prefabs/Spike.prefab
-  artifactKey: Guid(0f70c6455eafa6b409969e94be143066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Spike.prefab using Guid(0f70c6455eafa6b409969e94be143066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9521bb6c4e7dda83360266631d075350') in 0.028609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Prefabs/Moving Obstacle.prefab
-  artifactKey: Guid(7843159d57fdd9e46b667fa87d3422a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Moving Obstacle.prefab using Guid(7843159d57fdd9e46b667fa87d3422a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84d2a706a11f3838053dc0ff7f8cfb1') in 0.034112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Prefabs/SceneManager.prefab
-  artifactKey: Guid(a9189751bb5263c4ea9cb00fcb0af362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SceneManager.prefab using Guid(a9189751bb5263c4ea9cb00fcb0af362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22899e0a58632f9ff2bc9ba504d2652') in 0.013389 seconds 
+  Time since last request: 0.000045 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower08.tga
+  artifactKey: Guid(8900a35e436818940b97df26c3a8a1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower08.tga using Guid(8900a35e436818940b97df26c3a8a1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233f357d64657c8c51b7e7c96fee57d8') in 0.044158 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000059 seconds.
-  path: Assets/Prefabs/KeyPickup.prefab
-  artifactKey: Guid(547f11cafd6819f4386a9c7039b55bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/KeyPickup.prefab using Guid(547f11cafd6819f4386a9c7039b55bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5a6bd6efbcd79bdf491cfb995af316') in 0.018485 seconds 
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower01.tga
+  artifactKey: Guid(5733619f617fd954cac22d3d11fd1b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower01.tga using Guid(5733619f617fd954cac22d3d11fd1b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd22ed2d780abb028adbbfa39509fd6b') in 0.032016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower02.tga
+  artifactKey: Guid(b0601839c4520064bb61d58d088810bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower02.tga using Guid(b0601839c4520064bb61d58d088810bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d7a2b3ce1189959d19b96e508fec03') in 0.036639 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
